@@ -1,6 +1,8 @@
 class Pig implements Animal 
 {     
-     private String mySound;      
+     public String mySound;
+     public String myType; 
+
      public Pig(String type, String sound)     {         
          myType = type;         
          mySound = sound;     
@@ -9,19 +11,19 @@ class Pig implements Animal
          myType = "unknown";         
          mySound = "unknown";     
      }    
-     public void setType()
-     {myType=type;
+     // public void setType()
+     // {myType=type;
      	
-     } 
-     public void setSound()
-     {
-     	mySound=sound;
-     }
-     public getType()
+     // } 
+     // public void setSound()
+     // {
+     // 	mySound=sound;
+     // }
+     public String getType()
      {
      	return myType;
      }  
-     public getSound()
+     public String getSound()
      {
      	return mySound;
      }   
