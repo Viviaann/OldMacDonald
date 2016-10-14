@@ -8,5 +8,13 @@ class Chick implements Animal
      public Chick()     {         
          myType = "unknown";         
          mySound = "unknown";     
-     }      
+     }  
+     public void setType()
+     {
+     	
+     } 
+     public void setSound()
+     {
+     	
+     }   
 }
