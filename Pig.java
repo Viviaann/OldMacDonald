@@ -8,5 +8,21 @@ class Pig implements Animal
      public Pig()     {         
          myType = "unknown";         
          mySound = "unknown";     
-     }      
+     }    
+     public void setType()
+     {myType=type;
+     	
+     } 
+     public void setSound()
+     {
+     	mySound=sound;
+     }
+     public getType()
+     {
+     	return myType;
+     }  
+     public getSound()
+     {
+     	return mySound;
+     }   
 }

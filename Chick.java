@@ -16,5 +16,14 @@ class Chick implements Animal
      public void setSound()
      {
      	
-     }   
+     }
+     public void getType()
+     {
+
+     }  
+     public void getSound()
+     {
+
+     } 
+
 }
